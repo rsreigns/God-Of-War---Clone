@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Warrior.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\unreal project\Warrior\Intermediate\Build\Win64\x64\WarriorEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"E:\unreal project\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Warrior.cpp.obj"
+"E:\unreal project\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\Default.rc2.res"
+/OUT:"E:\unreal project\Warrior\Intermediate\Build\Win64\x64\UnrealEditor\Development\Warrior\UnrealEditor-Warrior.lib"
