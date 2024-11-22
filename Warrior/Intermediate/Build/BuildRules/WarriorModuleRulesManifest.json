@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"E:\\unreal project\\Warrior\\Source\\Warrior\\Warrior.Build.cs",
-		"E:\\unreal project\\Warrior\\Source\\Warrior.Target.cs",
-		"E:\\unreal project\\Warrior\\Source\\WarriorEditor.Target.cs"
-	],
-	"EngineVersion": "5.4.4"
-}
