@@ -1,0 +1,282 @@
+{
+    "version": "2.1.0",
+    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+    "runs": [
+        {
+            "results": [
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/DataAssets/StartUpData/DataAsset_HeroStartUpData.cpp"
+                                },
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FGameplayAbilityInputBinds::FGameplayAbilityInputBinds': Enum names are now represented by path names. Please use a version of FGameplayAbilityInputBinds constructor that accepts FTopLevelAssetPath. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/MyCharacter.cpp"
+                                },
+                                "region": {
+                                    "startLine": 46,
+                                    "startColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FGameplayAbilityInputBinds::FGameplayAbilityInputBinds': Enum names are now represented by path names. Please use a version of FGameplayAbilityInputBinds constructor that accepts FTopLevelAssetPath. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/MyCharacter.cpp"
+                                },
+                                "region": {
+                                    "startLine": 85,
+                                    "startColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Public/Warrior/AbilitySystem/WarriorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/MyAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 9
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/Warrior/AbilitySystem/WarriorAbilitySystemComponent.cpp"
+                                },
+                                "region": {
+                                    "startLine": 12,
+                                    "startColumn": 19
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile."
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/Warrior/AbilitySystem/WarriorAbilitySystemComponent.cpp"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 14
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/RPG/RPGAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 11,
+                                    "startColumn": 9
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Public/Warrior/AbilitySystem/WarriorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 9
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4996",
+                    "message": {
+                        "text": "'Cast::FStaticWarningMsg_158::condition': Attempting to use Cast<> on types that are not related"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Intermediate/Build/Win64/x64/UnrealEditor/Development/knight/Module.knight.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/UE-5.5/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h"
+                                },
+                                "region": {
+                                    "startLine": 158,
+                                    "startColumn": 6
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/UE-5.5/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h"
+                                },
+                                "region": {
+                                    "startLine": 158,
+                                    "startColumn": 6
+                                }
+                            },
+                            "message": {
+                                "text": "the template instantiation context (the oldest one first) is"
+                            }
+                        },
+                        {
+                            "id": 1,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/unreal project/God-Of-War---Clone/knight/Source/knight/Private/Warrior/AbilitySystem/Abilities/WarriorGameplayAbility.cpp"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 9
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'T *Cast<UWarriorHeroGameplayAbility,UAbilitySystemComponent>(const TWeakObjectPtr<UAbilitySystemComponent,FWeakObjectPtr> &)' being compiled\n        with\n        [\n            T=UWarriorHeroGameplayAbility\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///E:/UE-5.5/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h"
+                                },
+                                "region": {
+                                    "startLine": 289,
+                                    "startColumn": 164
+                                }
+                            },
+                            "message": {
+                                "text": "see reference to function template instantiation 'To *Cast<UWarriorHeroGameplayAbility,T>(From *)' being compiled\n        with\n        [\n            To=UWarriorHeroGameplayAbility,\n            T=UAbilitySystemComponent,\n            From=UAbilitySystemComponent\n        ]"
+                            },
+                            "properties": {
+                                "nestingLevel": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "MSVC",
+                    "shortDescription": {
+                        "text": "Microsoft Visual C++ Compiler Warnings/Errors"
+                    },
+                    "informationUri": "https://docs.microsoft.com/cpp/error-messages/compiler-errors-1/c-cpp-build-errors"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\knight.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\knight.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\knightEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\knight">
+      <UniqueIdentifier>{588182A4-CBCE-31CD-9F40-4BB446B68DBB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\knight\knight.Build.cs">
+      <Filter>Source\knight</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\knight\knight.cpp">
+      <Filter>Source\knight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\knight.h">
+      <Filter>Source\knight</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Components">
+      <UniqueIdentifier>{AEF4860E-EBB2-3D51-8B9E-8A540FEAA872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Components\Input">
+      <UniqueIdentifier>{A9457722-DDB2-36C6-9680-FB01CC10A746}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Components\Input\WarriorInputComponent.cpp">
+      <Filter>Source\knight\Components\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Components\Input\WarriorInputComponent.h">
+      <Filter>Source\knight\Components\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private">
+      <UniqueIdentifier>{E8D2BAB5-8695-3138-9298-92F33C37BCC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\MyAbilitySystemComponent.cpp">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyAbilitySystemComponent.h">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyAttributeSet.cpp">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyAttributeSet.h">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyCharacter.cpp">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyCharacter.h">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyGameplayAbility.cpp">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\MyGameplayAbility.h">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\WarriorGameplayTags.cpp">
+      <Filter>Source\knight\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\DataAssets">
+      <UniqueIdentifier>{2417FE17-A6A3-32C2-B6CF-6F74F4DCE2CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Private\DataAssets\Input">
+      <UniqueIdentifier>{EBCE097E-879F-3051-A422-7E0F843AA67B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\DataAssets\Input\DataAsset_Config.cpp">
+      <Filter>Source\knight\Private\DataAssets\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\DataAssets\StartUpData">
+      <UniqueIdentifier>{1BBEBE69-06B2-3430-BF8B-38B5400DB7B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\DataAssets\StartUpData\DataAsset_EnemyStartUpDataBase.cpp">
+      <Filter>Source\knight\Private\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\DataAssets\StartUpData\DataAsset_HeroStartUpData.cpp">
+      <Filter>Source\knight\Private\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\DataAssets\StartUpData\DataAsset_StartUpDataBase.cpp">
+      <Filter>Source\knight\Private\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\GameMode">
+      <UniqueIdentifier>{977AD5E7-437A-3F2D-B50F-91F3E4D8AA64}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\GameMode\warriorBaseGM.cpp">
+      <Filter>Source\knight\Private\GameMode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\GameMode\warriorBaseGM.h">
+      <Filter>Source\knight\Private\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior">
+      <UniqueIdentifier>{F3838C7E-FC36-3731-B7B0-A86C25B614A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\HeroCharacter.cpp">
+      <Filter>Source\knight\Private\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\PawnExtensionComponentBase.cpp">
+      <Filter>Source\knight\Private\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\WarriorCharacter.cpp">
+      <Filter>Source\knight\Private\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\WarriorEnemyCharacter.cpp">
+      <Filter>Source\knight\Private\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\WarriorFunctionLibrary.cpp">
+      <Filter>Source\knight\Private\Warrior</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AbilitySystem">
+      <UniqueIdentifier>{D9E89307-C692-3169-8BF2-30AB908D7078}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\WarriorAbilitySystemComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\WarriorAttributeSet.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AbilitySystem\Abilities">
+      <UniqueIdentifier>{D588AF83-C696-3FAA-92AD-B14C5D131767}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\Abilities\WarriorEnemyGameplayAbility.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\Abilities\WarriorGameplayAbility.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\Abilities\WarriorHeroGameplayAbility.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AbilitySystem\GEExecCalc">
+      <UniqueIdentifier>{0C7E1598-0174-360A-9CC0-EB9D07551515}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AbilitySystem\GEExecCalc\GEExecCalc_DamageTaken.cpp">
+      <Filter>Source\knight\Private\Warrior\AbilitySystem\GEExecCalc</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AI">
+      <UniqueIdentifier>{2922787F-D6FF-32C4-9B2A-75764B7D8341}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AI\BTService_OrientToTargetActor.cpp">
+      <Filter>Source\knight\Private\Warrior\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AI\BTTask_RotateToFaceTarget.cpp">
+      <Filter>Source\knight\Private\Warrior\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AnimInstances">
+      <UniqueIdentifier>{5CF4E2BC-E221-3084-B110-B19500FF5287}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AnimInstances\WarriorBaseAnimInstance.cpp">
+      <Filter>Source\knight\Private\Warrior\AnimInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AnimInstances\WarriorCharacterAnimInstance.cpp">
+      <Filter>Source\knight\Private\Warrior\AnimInstances</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\AnimInstances\Hero">
+      <UniqueIdentifier>{235A6B0A-89D4-3B51-8813-7E833CBC0F5B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AnimInstances\Hero\WarriorHeroAnimInstance.cpp">
+      <Filter>Source\knight\Private\Warrior\AnimInstances\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\AnimInstances\Hero\WarriorHeroLinkedAnimLayer.cpp">
+      <Filter>Source\knight\Private\Warrior\AnimInstances\Hero</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Components">
+      <UniqueIdentifier>{3155F2EE-9A91-3300-B2AC-0846A45FC63A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Private\Warrior\Components\PawnExtension">
+      <UniqueIdentifier>{8BE3EA82-9E58-35F8-937E-0CBB4522369B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\PawnExtension\PawnCombatComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\PawnExtension</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Components\PawnExtension\Combat">
+      <UniqueIdentifier>{41D6374B-8C92-3444-8A4D-D101DBFC7E3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\PawnExtension\Combat\EnemyCombatComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\PawnExtension\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\PawnExtension\Combat\HeroCombatComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\PawnExtension\Combat</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Components\UI">
+      <UniqueIdentifier>{381B983C-F5A2-3C6B-9311-490D6C61F339}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\UI\EnemyPawnUIComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\UI\HeroPawnUIComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Components\UI\PawnUIComponent.cpp">
+      <Filter>Source\knight\Private\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Controller">
+      <UniqueIdentifier>{4F12B27D-61D0-34A2-8C4E-EE00D91B7633}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Controller\HeroController.cpp">
+      <Filter>Source\knight\Private\Warrior\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Controller\WarriorAIController.cpp">
+      <Filter>Source\knight\Private\Warrior\Controller</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\GameMode">
+      <UniqueIdentifier>{E023AC5D-73E1-3099-A2D7-5FE724689742}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\GameMode\WarriorGameMode.cpp">
+      <Filter>Source\knight\Private\Warrior\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Interfaces">
+      <UniqueIdentifier>{3C482006-9661-36E3-98BD-26E1E6C8AEE1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Interfaces\PawnCombatInterface.cpp">
+      <Filter>Source\knight\Private\Warrior\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Interfaces\PawnUIInterface.cpp">
+      <Filter>Source\knight\Private\Warrior\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Items">
+      <UniqueIdentifier>{F5FFC8E2-5D64-33C5-80FE-B1D6471AEA7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Private\Warrior\Items\Weapons">
+      <UniqueIdentifier>{0843ABE6-6100-334A-AAEF-3FFA399257BB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Items\Weapons\WarriorHeroWeapon.cpp">
+      <Filter>Source\knight\Private\Warrior\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Items\Weapons\WarriorWeaponBase.cpp">
+      <Filter>Source\knight\Private\Warrior\Items\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\WarriorTypes">
+      <UniqueIdentifier>{F6D1E702-5D6A-341D-AFF9-B603F55D6E0E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\WarriorTypes\WarriorStructTypes.cpp">
+      <Filter>Source\knight\Private\Warrior\WarriorTypes</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Private\Warrior\Widgets">
+      <UniqueIdentifier>{F53A09B8-B71F-379C-85F3-155B86FCC23D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Private\Warrior\Widgets\WarriorWidgetBase.cpp">
+      <Filter>Source\knight\Private\Warrior\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public">
+      <UniqueIdentifier>{0EE3311B-1557-38CD-B5BE-4B7CF4A69E78}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\WarriorDebugHelper.h">
+      <Filter>Source\knight\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\WarriorGameplayTags.h">
+      <Filter>Source\knight\Public</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\DataAssets">
+      <UniqueIdentifier>{1C0EA041-2AA1-3870-9C7A-F95760C47730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Public\DataAssets\Input">
+      <UniqueIdentifier>{9D39EDF7-B533-36FF-9AE1-D860EB781E58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\DataAssets\Input\DataAsset_Config.h">
+      <Filter>Source\knight\Public\DataAssets\Input</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\DataAssets\StartUpData">
+      <UniqueIdentifier>{575C7EA5-8D9A-3D44-B11D-E56B3A9E6DB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\DataAssets\StartUpData\DataAsset_EnemyStartUpDataBase.h">
+      <Filter>Source\knight\Public\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\DataAssets\StartUpData\DataAsset_HeroStartUpData.h">
+      <Filter>Source\knight\Public\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\DataAssets\StartUpData\DataAsset_StartUpDataBase.h">
+      <Filter>Source\knight\Public\DataAssets\StartUpData</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior">
+      <UniqueIdentifier>{2D25908C-DCDC-3AA0-B74B-06A870F29D28}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\HeroCharacter.h">
+      <Filter>Source\knight\Public\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\PawnExtensionComponentBase.h">
+      <Filter>Source\knight\Public\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\WarriorCharacter.h">
+      <Filter>Source\knight\Public\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\WarriorEnemyCharacter.h">
+      <Filter>Source\knight\Public\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\WarriorFunctionLibrary.h">
+      <Filter>Source\knight\Public\Warrior</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AbilitySystem">
+      <UniqueIdentifier>{8BF0E101-1827-38D4-A03C-BD8FD07A7CA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\WarriorAbilitySystemComponent.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\WarriorAttributeSet.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AbilitySystem\Abilities">
+      <UniqueIdentifier>{FD4B81C7-C571-3837-BAED-A2AC66F2CB6E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\Abilities\WarriorEnemyGameplayAbility.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\Abilities\WarriorGameplayAbility.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\Abilities\WarriorHeroGameplayAbility.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AbilitySystem\GEExecCalc">
+      <UniqueIdentifier>{D1EBE66F-EDDB-3169-A3CA-16DEE9B53781}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AbilitySystem\GEExecCalc\GEExecCalc_DamageTaken.h">
+      <Filter>Source\knight\Public\Warrior\AbilitySystem\GEExecCalc</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AI">
+      <UniqueIdentifier>{D14343E0-3D11-3D0A-978D-24AD14CD74D2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AI\BTService_OrientToTargetActor.h">
+      <Filter>Source\knight\Public\Warrior\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AI\BTTask_RotateToFaceTarget.h">
+      <Filter>Source\knight\Public\Warrior\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AnimInstances">
+      <UniqueIdentifier>{CEF63117-37DC-35F5-BC22-375AC00751D2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AnimInstances\WarriorBaseAnimInstance.h">
+      <Filter>Source\knight\Public\Warrior\AnimInstances</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AnimInstances\WarriorCharacterAnimInstance.h">
+      <Filter>Source\knight\Public\Warrior\AnimInstances</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\AnimInstances\Hero">
+      <UniqueIdentifier>{8533FFED-9FE6-392A-BEAB-45B475D2533D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AnimInstances\Hero\WarriorHeroAnimInstance.h">
+      <Filter>Source\knight\Public\Warrior\AnimInstances\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\AnimInstances\Hero\WarriorHeroLinkedAnimLayer.h">
+      <Filter>Source\knight\Public\Warrior\AnimInstances\Hero</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Components">
+      <UniqueIdentifier>{D5A51B7E-082F-3DD9-B295-6D3D82E25921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Public\Warrior\Components\PawnExtension">
+      <UniqueIdentifier>{3F36A788-C04B-3776-A00C-4F00504B5760}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\PawnExtension\PawnCombatComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\PawnExtension</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Components\PawnExtension\Combat">
+      <UniqueIdentifier>{CC439B03-58BE-32B3-B064-AB253FE23019}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\PawnExtension\Combat\EnemyCombatComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\PawnExtension\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\PawnExtension\Combat\HeroCombatComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\PawnExtension\Combat</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Components\UI">
+      <UniqueIdentifier>{B4B87D68-16DA-3259-B025-26CEF4140F79}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\UI\EnemyPawnUIComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\UI\HeroPawnUIComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Components\UI\PawnUIComponent.h">
+      <Filter>Source\knight\Public\Warrior\Components\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Controller">
+      <UniqueIdentifier>{02CA1AFE-6D8C-314F-8777-ABB09A6C6950}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Controller\HeroController.h">
+      <Filter>Source\knight\Public\Warrior\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Controller\WarriorAIController.h">
+      <Filter>Source\knight\Public\Warrior\Controller</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\GameMode">
+      <UniqueIdentifier>{3B81A6F0-49AC-3147-AD81-A680C84016DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\GameMode\WarriorGameMode.h">
+      <Filter>Source\knight\Public\Warrior\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Interfaces">
+      <UniqueIdentifier>{6995E8C2-F308-3C0F-A7D1-88D814CE474A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Interfaces\PawnCombatInterface.h">
+      <Filter>Source\knight\Public\Warrior\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Interfaces\PawnUIInterface.h">
+      <Filter>Source\knight\Public\Warrior\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Items">
+      <UniqueIdentifier>{D40BFBFB-9AE4-3412-AAF0-6B27A102DE49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\knight\Public\Warrior\Items\Weapons">
+      <UniqueIdentifier>{E6E6A7F3-B75F-35C2-885B-6C0D34C71A22}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Items\Weapons\WarriorHeroWeapon.h">
+      <Filter>Source\knight\Public\Warrior\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Items\Weapons\WarriorWeaponBase.h">
+      <Filter>Source\knight\Public\Warrior\Items\Weapons</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\WarriorTypes">
+      <UniqueIdentifier>{7FEA8D26-76C1-3704-9DF2-43359FB06A1F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\WarriorTypes\WarriorEnumTypes.h">
+      <Filter>Source\knight\Public\Warrior\WarriorTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\WarriorTypes\WarriorStructTypes.h">
+      <Filter>Source\knight\Public\Warrior\WarriorTypes</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\Public\Warrior\Widgets">
+      <UniqueIdentifier>{F60EE596-5A0E-3C9D-A850-1F0D662F5508}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\Public\Warrior\Widgets\WarriorWidgetBase.h">
+      <Filter>Source\knight\Public\Warrior\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Source\knight\RPG">
+      <UniqueIdentifier>{20D3630B-D1B7-34D1-84E9-3082DFBC8CBD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\knight\RPG\RPGAttributeSet.cpp">
+      <Filter>Source\knight\RPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\RPG\RPGAttributeSet.h">
+      <Filter>Source\knight\RPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\RPG\RPGCharacter.cpp">
+      <Filter>Source\knight\RPG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\knight\RPG\RPGCharacter.h">
+      <Filter>Source\knight\RPG</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

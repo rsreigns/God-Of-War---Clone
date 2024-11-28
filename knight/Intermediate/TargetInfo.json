@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "knight",
+			"Path": "..\\Source\\knight.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "knightEditor",
+			"Path": "..\\Source\\knightEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

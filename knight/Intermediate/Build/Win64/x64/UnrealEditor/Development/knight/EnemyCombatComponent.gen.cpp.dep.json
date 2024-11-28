@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\enemycombatcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\knighteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\knight\\definitions.knight.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\components\\pawnextension\\combat\\enemycombatcomponent.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\components\\pawnextension\\pawncombatcomponent.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\pawnextensioncomponentbase.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\pawnextensioncomponentbase.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\pawncombatcomponent.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\enemycombatcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

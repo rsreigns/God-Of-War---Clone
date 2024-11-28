@@ -90,6 +90,7 @@ void AHeroCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 void AHeroCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	Debug::Print("Test Beginplay HeroCharacter");
 }
 
 void AHeroCharacter::Input_Move(const FInputActionValue& InputActionValue)

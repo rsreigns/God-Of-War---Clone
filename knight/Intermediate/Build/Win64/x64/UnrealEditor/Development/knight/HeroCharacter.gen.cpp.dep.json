@@ -1,0 +1,36 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\herocharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\knighteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\knight\\definitions.knight.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\herocharacter.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\warriorcharacter.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\interfaces\\pawncombatinterface.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\pawncombatinterface.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\interfaces\\pawnuiinterface.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\pawnuiinterface.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\warriorcharacter.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warriordebughelper.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\herocharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

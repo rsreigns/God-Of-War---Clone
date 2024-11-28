@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\warrioraicontroller.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\knighteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\knight\\definitions.knight.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\source\\knight\\public\\warrior\\controller\\warrioraicontroller.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\aicontroller.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\aitypes.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\navigationsystem\\public\\navigationsystemtypes.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\ai\\navigationsystemconfig.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navigationsystemconfig.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aitypes.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\perception\\aiperceptionlistenerinterface.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiperceptionlistenerinterface.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\genericteamagentinterface.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\genericteamagentinterface.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\engine\\public\\visuallogger\\visualloggerdebugsnapshotinterface.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\visualloggerdebugsnapshotinterface.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aicontroller.generated.h",
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\warrioraicontroller.generated.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\source\\runtime\\aimodule\\classes\\perception\\aiperceptiontypes.h",
+            "e:\\ue-5.5\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aiperceptiontypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

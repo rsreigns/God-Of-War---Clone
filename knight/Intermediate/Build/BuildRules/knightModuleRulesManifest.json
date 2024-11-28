@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\unreal project\\God-Of-War---Clone\\knight\\Source\\knight\\knight.Build.cs",
+		"E:\\unreal project\\God-Of-War---Clone\\knight\\Source\\knight.Target.cs",
+		"E:\\unreal project\\God-Of-War---Clone\\knight\\Source\\knightEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.0"
+}

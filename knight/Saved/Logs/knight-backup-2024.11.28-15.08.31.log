@@ -1,0 +1,452 @@
+﻿Log file open, 11/28/24 20:36:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=1796)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: knight
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Display Control listening on port 1985
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-37670630"
+LogCsvProfiler: Display: Metadata set : engineversion="5.5.0-37670630+++UE5+Release-5.5"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.4460] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" "E:\unreal project\God-Of-War---Clone\knight\knight.uproject"""
+LogCsvProfiler: Display: Metadata set : loginid="1128ed3f451034b33b928abc2b898490"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 2.235162
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-B9E9DC794232C4EB8CC571A7513E721D
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [../../../../../unreal project/God-Of-War---Clone/knight/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.10 seconds
+LogConfig: Display: Loading Mac ini files took 0.10 seconds
+LogConfig: Display: Loading IOS ini files took 0.10 seconds
+LogConfig: Display: Loading Android ini files took 0.10 seconds
+LogConfig: Display: Loading TVOS ini files took 0.10 seconds
+LogConfig: Display: Loading Linux ini files took 0.11 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.11 seconds
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../unreal project/God-Of-War---Clone/knight/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: ../../../../../unreal project/God-Of-War---Clone/knight/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin CmdLinkServer
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin RenderGraphInsights
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin UbaController
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin AdvancedRenamer
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin EditorPerformance
+LogPluginManager: Mounting Engine plugin EditorTelemetry
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin LowLevelNetTrace
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin DataRegistry
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GameplayAbilities
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin MotionWarping
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin BaseCharacterFXEditor
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin HoldoutComposite
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin RiderLink
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogInit: Warning: Incompatible or missing module: knight
+Running E:/UE-5.5/UE_5.5/Engine/Build/BatchFiles/Build.bat Development Win64 -Project="E:/unreal project/God-Of-War---Clone/knight/knight.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using bundled DotNet SDK version: 8.0.300
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Development Win64 -Project="E:/unreal project/God-Of-War---Clone/knight/knight.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Log file: C:\Users\sharm\AppData\Local\UnrealBuildTool\Log.txt
+Available x64 toolchains (1):
+ * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433
+    (Family=14.42.34433, FamilyRank=1, Version=14.42.34435, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio 2022 compiler version 14.42.34435 is not a preferred version. Please use the latest preferred version 14.38.33130
+Using 'git status' to determine working set for adaptive non-unity build (E:\unreal project\God-Of-War---Clone).
+Creating makefile for knightEditor (no existing makefile)
+@progress push 5%
+Parsing headers for knightEditor
+  Running Internal UnrealHeaderTool "E:\unreal project\God-Of-War---Clone\knight\knight.uproject" "E:\unreal project\God-Of-War---Clone\knight\Intermediate\Build\Win64\knightEditor\Development\knightEditor.uhtmanifest" -WarningsAsErrors -installed
+Total of 94 written
+Reflection code generated for knightEditor in 2.2650462 seconds
+@progress pop
+Building knightEditor...
+Using Visual Studio 2022 14.42.34435 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Warning: Visual Studio 2022 compiler is not a preferred version
+[Upgrade]
+[Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3
+[Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;' in knightEditor.Target.cs.
+[Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[Upgrade]
+[Adaptive Build] Excluded from knight unity file: PerModuleInline.gen.cpp, BTService_OrientToTargetActor.gen.cpp, BTTask_RotateToFaceTarget.gen.cpp, DataAsset_Config.gen.cpp, DataAsset_EnemyStartUpDataBase.gen.cpp, DataAsset_HeroStartUpData.gen.cpp, DataAsset_StartUpDataBase.gen.cpp, EnemyCombatComponent.gen.cpp, EnemyPawnUIComponent.gen.cpp, GEExecCalc_DamageTaken.gen.cpp, HeroCharacter.gen.cpp, HeroCombatComponent.gen.cpp, HeroController.gen.cpp, HeroPawnUIComponent.gen.cpp, knight.gen.cpp, knight.init.gen.cpp, MyAbilitySystemComponent.gen.cpp, MyAttributeSet.gen.cpp, MyCharacter.gen.cpp, MyGameplayAbility.gen.cpp, PawnCombatComponent.gen.cpp, PawnCombatInterface.gen.cpp, PawnExtensionComponentBase.gen.cpp, PawnUIComponent.gen.cpp, PawnUIInterface.gen.cpp, RPGAttributeSet.gen.cpp, RPGCharacter.gen.cpp, WarriorAbilitySystemComponent.gen.cpp, WarriorAIController.gen.cpp, WarriorAttributeSet.gen.cpp, WarriorBaseAnimInstance.gen.cpp, warriorBaseGM.gen.cpp, WarriorCharacter.gen.cpp, WarriorCharacterAnimInstance.gen.cpp, WarriorEnemyCharacter.gen.cpp, WarriorEnemyGameplayAbility.gen.cpp, WarriorEnumTypes.gen.cpp, WarriorFunctionLibrary.gen.cpp, WarriorGameMode.gen.cpp, WarriorGameplayAbility.gen.cpp, WarriorHeroAnimInstance.gen.cpp, WarriorHeroGameplayAbility.gen.cpp, WarriorHeroLinkedAnimLayer.gen.cpp, WarriorHeroWeapon.gen.cpp, WarriorInputComponent.gen.cpp, WarriorStructTypes.gen.cpp, WarriorWeaponBase.gen.cpp, WarriorWidgetBase.gen.cpp
+Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+  Executing up to 6 processes, one per physical core
+  Requested 1.5 GB memory per action, 8.69 GB available: limiting max parallel actions to 5
+Using XGE executor to run 54 action(s)
+Distributing 54 actions to XGE
+UnrealBuildTool Compile
+
+--------------------Build System Warning---------------------------------------
+License not activated:
+    License is not activated. Please activate the license in the coordinator.
+    This build will run in standalone mode.
+
+-------------------------------------------------------------------------------
+ 
+Build ID: {323C74B1-F9AB-4DE1-842D-22738E18A5E8}
+ 
+--------------------Project: Default-------------------------------------------
+[1/54] Resource Default.rc2 (0:00.09 at +0:00)
+[2/54] Compile [x64] SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.cpp (0:46.21 at +0:00)
+[3/54] Compile [x64] DataAsset_StartUpDataBase.gen.cpp (0:01.15 at +0:46)
+[4/54] Compile [x64] DataAsset_EnemyStartUpDataBase.gen.cpp (0:01.25 at +0:46)
+[5/54] Compile [x64] DataAsset_Config.gen.cpp (0:02.36 at +0:46)
+[6/54] Compile [x64] EnemyCombatComponent.gen.cpp (0:02.57 at +0:46)
+[7/54] Compile [x64] DataAsset_HeroStartUpData.gen.cpp (0:02.60 at +0:46)
+[8/54] Compile [x64] EnemyPawnUIComponent.gen.cpp (0:02.93 at +0:46)
+[9/54] Compile [x64] HeroController.gen.cpp (0:03.15 at +0:46)
+[10/54] Compile [x64] HeroCombatComponent.gen.cpp (0:03.20 at +0:46)
+[11/54] Compile [x64] PawnCombatInterface.gen.cpp (0:00.57 at +0:49)
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMesh.h(940): warning C4996: 'FBoneMirrorInfo': FBoneMirrorInfo is deprecated. Please use UMirrorDataTable for mirroring support. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[12/54] Compile [x64] HeroCharacter.gen.cpp (0:04.75 at +0:46)
+[13/54] Compile [x64] HeroPawnUIComponent.gen.cpp (0:03.68 at +0:47)
+[14/54] Compile [x64] BTTask_RotateToFaceTarget.gen.cpp (0:05.32 at +0:46)
+[15/54] Compile [x64] BTService_OrientToTargetActor.gen.cpp (0:05.34 at +0:46)
+[16/54] Compile [x64] PawnExtensionComponentBase.gen.cpp (0:02.07 at +0:50)
+[17/54] Compile [x64] MyCharacter.gen.cpp (0:03.76 at +0:48)
+[18/54] Compile [x64] PawnUIInterface.gen.cpp (0:01.76 at +0:51)
+[19/54] Compile [x64] PerModuleInline.gen.cpp (0:01.34 at +0:51)
+[20/54] Compile [x64] PawnCombatComponent.gen.cpp (0:03.40 at +0:49)
+[21/54] Compile [x64] WarriorAbilitySystemComponent.gen.cpp (0:00.31 at +0:52)
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[22/54] Compile [x64] PawnUIComponent.gen.cpp (0:03.04 at +0:51)
+[23/54] Compile [x64] WarriorCharacterAnimInstance.gen.cpp (0:00.50 at +0:54)
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[24/54] Compile [x64] WarriorAIController.gen.cpp (0:02.43 at +0:52)
+E:\unreal project\God-Of-War---Clone\knight\Intermediate\Build\Win64\UnrealEditor\Inc\knight\UHT\WarriorAIController.gen.cpp : fatal error C1002: compiler is out of heap space in pass 2
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 1)
+[25/54] Compile [x64] RPGAttributeSet.gen.cpp (0:03.64 at +0:51)
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\Core\Public\Containers\Array.h(598): fatal error C1060: compiler is out of heap space
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[26/54] Compile [x64] RPGCharacter.gen.cpp (0:03.04 at +0:52)
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\Net\Core\Classes\Net\Serialization\FastArraySerializer.h(939): fatal error C1060: compiler is out of heap space
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[27/54] Compile [x64] MyAttributeSet.gen.cpp (0:06.57 at +0:48)
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\Core\Public\Containers\SparseArray.h(1032): fatal error C1060: compiler is out of heap space
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[28/54] Compile [x64] WarriorBaseAnimInstance.gen.cpp (0:02.75 at +0:52)
+[29/54] Compile [x64] WarriorCharacter.gen.cpp (0:03.03 at +0:53)
+[30/54] Compile [x64] WarriorEnumTypes.gen.cpp (0:01.46 at +0:55)
+[31/54] Compile [x64] GEExecCalc_DamageTaken.gen.cpp (0:10.42 at +0:46)
+[32/54] Compile [x64] WarriorEnemyCharacter.gen.cpp (0:02.54 at +0:54)
+[33/54] Compile [x64] WarriorGameMode.gen.cpp (0:02.26 at +0:55)
+[34/54] Compile [x64] WarriorFunctionLibrary.gen.cpp (0:03.15 at +0:55)
+[35/54] Compile [x64] WarriorHeroAnimInstance.gen.cpp (0:02.54 at +0:56)
+[36/54] Compile [x64] MyGameplayAbility.gen.cpp (0:09.96 at +0:49)
+[37/54] Compile [x64] MyAbilitySystemComponent.gen.cpp (0:10.78 at +0:48)
+[38/54] Compile [x64] knight.gen.cpp (0:00.34 at +0:59)
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+cl : Command line error D8000 : UNKNOWN COMMAND-LINE ERROR
+    Please choose the Technical Support command on the Visual C++
+    Help menu, or open the Technical Support help file for more information
+
+Error executing C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\Hostx64\x64\cl.exe (tool returned code: 2)
+[39/54] Compile [x64] WarriorHeroLinkedAnimLayer.gen.cpp (0:03.31 at +0:56)
+[40/54] Compile [x64] WarriorHeroWeapon.gen.cpp (0:03.25 at +0:57)
+[41/54] Compile [x64] WarriorWeaponBase.gen.cpp (0:02.20 at +0:58)
+[42/54] Compile [x64] knight.init.gen.cpp (0:01.26 at +0:59)
+[43/54] Compile [x64] WarriorStructTypes.gen.cpp (0:03.03 at +0:58)
+[44/54] Compile [x64] warriorBaseGM.gen.cpp (0:01.67 at +1:00)
+[45/54] Compile [x64] WarriorAttributeSet.gen.cpp (0:09.53 at +0:52)
+[46/54] Compile [x64] WarriorInputComponent.gen.cpp (0:05.17 at +0:57)
+[47/54] Compile [x64] WarriorEnemyGameplayAbility.gen.cpp (0:08.54 at +0:55)
+[48/54] Compile [x64] WarriorWidgetBase.gen.cpp (0:04.90 at +0:59)
+[49/54] Compile [x64] WarriorGameplayAbility.gen.cpp (0:08.48 at +0:55)
+[50/54] Compile [x64] WarriorHeroGameplayAbility.gen.cpp (0:07.62 at +0:56)
+[51/54] Compile [x64] Module.knight.cpp (0:20.70 at +0:47)
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\DataAssets\StartUpData\DataAsset_HeroStartUpData.cpp(20): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\MyCharacter.cpp(46): warning C4996: 'FGameplayAbilityInputBinds::FGameplayAbilityInputBinds': Enum names are now represented by path names. Please use a version of FGameplayAbilityInputBinds constructor that accepts FTopLevelAssetPath. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\MyCharacter.cpp(85): warning C4996: 'FGameplayAbilityInputBinds::FGameplayAbilityInputBinds': Enum names are now represented by path names. Please use a version of FGameplayAbilityInputBinds constructor that accepts FTopLevelAssetPath. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Public\Warrior\AbilitySystem\WarriorAttributeSet.h(9): warning C4005: 'ATTRIBUTE_ACCESSORS': macro redefinition
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\MyAttributeSet.h(10): note: see previous definition of 'ATTRIBUTE_ACCESSORS'
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\Warrior\AbilitySystem\WarriorAbilitySystemComponent.cpp(12): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\Warrior\AbilitySystem\WarriorAbilitySystemComponent.cpp(32): warning C4996: 'FGameplayAbilitySpec::DynamicAbilityTags': Use GetDynamicSpecSourceTags() which better represents what this variable does Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\RPG\RPGAttributeSet.h(11): warning C4005: 'ATTRIBUTE_ACCESSORS': macro redefinition
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Public\Warrior\AbilitySystem\WarriorAttributeSet.h(9): note: see previous definition of 'ATTRIBUTE_ACCESSORS'
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(158): warning C4996: 'Cast::FStaticWarningMsg_158::condition': Attempting to use Cast<> on types that are not related
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(158): note: the template instantiation context (the oldest one first) is
+E:\unreal project\God-Of-War---Clone\knight\Source\knight\Private\Warrior\AbilitySystem\Abilities\WarriorGameplayAbility.cpp(38): note: see reference to function template instantiation 'T *Cast<UWarriorHeroGameplayAbility,UAbilitySystemComponent>(const TWeakObjectPtr<UAbilitySystemComponent,FWeakObjectPtr> &)' being compiled
+        with
+        [
+            T=UWarriorHeroGameplayAbility
+        ]
+E:\UE-5.5\UE_5.5\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(289): note: see reference to function template instantiation 'To *Cast<UWarriorHeroGameplayAbility,T>(From *)' being compiled
+        with
+        [
+            To=UWarriorHeroGameplayAbility,
+            T=UAbilitySystemComponent,
+            From=UAbilitySystemComponent
+        ]
+---------------------- Done ----------------------
+ 
+    Rebuild All: 0 succeeded, 1 failed, 0 skipped
+ 
+1 build system warning(s):
+   - License not activated
+ 
+Total time in XGE executor: 68.44 seconds
+Total execution time: 85.72 seconds
+LogInit: Warning: Still incompatible or missing module: knight
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: )...
+LogAudio: Display: Audio Device Manager Shutdown
+LogExit: Preparing to exit.
+LogXGEController: Cleaning working directory: C:/Users/sharm/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 11/28/24 20:38:31

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\unrealeditor\\inc\\knight\\uht\\knight.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\knighteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\unreal project\\god-of-war---clone\\knight\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\knight\\definitions.knight.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
